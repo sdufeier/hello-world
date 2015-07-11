@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 
 using namespace std;
 
@@ -10,6 +11,10 @@ int main() {
     char * mystr = (char *)"This is function test." ;
     print(mystr);
     print((char *)"Make a call");
+
+    string s;
+    cin >> s;
+    cout << "You input: " << s << endl;
 
     return 0;
 }
