@@ -9,6 +9,7 @@ int main() {
 
     char * mystr = (char *)"This is function test." ;
     print(mystr);
+    print((char *)"Make a call");
 
     return 0;
 }
