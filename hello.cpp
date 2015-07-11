@@ -26,3 +26,7 @@ int main() {
 void print(char * str) {
     cout << str << endl;
 }
+
+int add(int a, int b) {
+    return a+b;
+}
