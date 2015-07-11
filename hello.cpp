@@ -16,6 +16,10 @@ int main() {
     cin >> s;
     cout << "You input: " << s << endl;
 
+    int n1, n2;
+    cout << "Input two number: " << endl;
+    cin >> n1 >> n2 ;
+    cout << "add result: " << n1 + n2 << endl;
     return 0;
 }
 
