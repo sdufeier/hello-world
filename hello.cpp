@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 
 using namespace std;
 
@@ -15,6 +16,10 @@ int main() {
     cout << "Input two number: " << endl;
     cin >> n1 >> n2 ;
     cout << "add result: " << n1 + n2 << endl;
+    string s;
+    cin >> s;
+    cout << "You input: " << s << endl;
+
     return 0;
 }
 
