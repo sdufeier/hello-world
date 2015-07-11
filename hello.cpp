@@ -22,6 +22,11 @@ int main() {
     cin >> s;
     cout << "You input: " << s << endl;
 
+    int array[] = {1,2,3,4,5,6};
+    for(int i=0; i<6; i++){
+        cout << "array[" << i << "]=" << array[i] << endl;
+    }
+
     return 0;
 }
 
