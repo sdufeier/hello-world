@@ -6,6 +6,8 @@ using namespace std;
 void print(char *);
 int add(int, int);
 int sub(int, int);
+int mul(int, int);
+int dev(int, int);
 
 int main() {
     cout << "Hello World!" << endl;
@@ -46,4 +48,7 @@ int sub(int a, int b) {
 
 int dev(int a, int b) {
     return a/b;
+
+int mul(int a, int b) {
+    return a*b;
 }
