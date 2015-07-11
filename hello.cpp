@@ -5,6 +5,7 @@ using namespace std;
 
 void print(char *);
 int add(int, int);
+int sub(int, int);
 
 int main() {
     cout << "Hello World!" << endl;
@@ -16,6 +17,7 @@ int main() {
     cout << "Input two number: " << endl;
     cin >> n1 >> n2 ;
     cout << "add result: " << add(n1, n2) << endl;
+    cout << "sub result: " << sub(n1, n2) << endl;
 
     string s;
     print((char *)"Make a call to whom: ");
@@ -36,4 +38,8 @@ void print(char * str) {
 
 int add(int a, int b) {
     return a+b;
+}
+
+int sub(int a, int b) {
+    return a-b;
 }
